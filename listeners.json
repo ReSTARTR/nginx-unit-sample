@@ -15,20 +15,20 @@
       "type": "php",
       "workers": 10,
       "root":
-        "/home/yoshida/go/src/github.com/ReSTARTR/nginx-unit-sample/php_server",
+        "GOPATH/src/github.com/ReSTARTR/nginx-unit-sample/php_server",
       "index": "index.php"
     },
     "py_server": {
       "type": "python",
       "workers": 10,
       "path":
-        "/home/yoshida/go/src/github.com/ReSTARTR/nginx-unit-sample/py_server",
+        "GOPATH/src/github.com/ReSTARTR/nginx-unit-sample/py_server",
       "module": "wsgi"
     },
     "go_server": {
       "type": "go",
       "executable":
-        "/home/yoshida/go/src/github.com/ReSTARTR/nginx-unit-sample/go_server/go_server"
+        "GOPATH/src/github.com/ReSTARTR/nginx-unit-sample/go_server/go_server"
     }
   }
 }

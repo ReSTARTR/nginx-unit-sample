@@ -41,6 +41,13 @@ $ cd ./go_server
 $ go build -o go_server
 ```
 
+Edit listeners.json for your environment.
+
+```sh
+# If you run on Mac, with "-i ''" option
+$ sed -E "s:GOPATH:$GOPATH:g" ./listeners.json
+```
+
 Notify to unit control server.
 
 ```sh
