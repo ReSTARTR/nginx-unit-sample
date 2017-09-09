@@ -4,7 +4,7 @@ Nginx UNIT sample
 NOTE:
 This repository depends on the repository http://github.com/ReSTARTR/unit that is forked from https://github.com/nginx/unit
 
-1. Build Nginx Unit from source
+Build Nginx Unit from source
 ----
 
 Install dependencies(ref: https://github.com/nginx/unit#precompiled-packages).
@@ -14,6 +14,7 @@ Build unitd control server
 ```sh
 $ go get github.com/ReSTARTR/unit # or git-clone
 $ cd github.com/ReSTARTR/unit
+$ git checkout go-include-path
 $ ./configure && make
 ```
 
