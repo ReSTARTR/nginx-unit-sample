@@ -21,7 +21,7 @@ $ ./configure && make
 Run unitd
 
 ```sh
-$ ./build/unitd --path=/tmp/control.unit.sock
+$ ./build/unitd --control unix:/tmp/control.unit.sock
 ```
 
 Prepare for each app server
